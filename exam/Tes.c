@@ -2,10 +2,10 @@
 void myPrint (int n)
 {
 printf ("%d\n", n);
-printf ("begin:%d\n", n/2);
+printf ("begin:%d\n", n%2);
 if (n > 0){ // Místo A
     printf("reeee\n");
-    myPrint (n - 2);} // Místo B
+    myPrint (n - 1);} // Místo B
 return;
 }
 
